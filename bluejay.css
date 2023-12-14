@@ -1,0 +1,66 @@
+body{
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: greenyellow;
+padding-top: 3vmin;
+border-radius: 5vmin;
+    margin-right: 2vmin;
+    margin-left: 2vmin;
+}
+a{
+    text-decoration: none;
+    background-color: chartreuse;
+    font-size: 3.5;
+}
+.title{
+    text-align: center;
+    margin-bottom: 2vmin;
+}
+.item1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .item1work{
+    display: flex;
+    flex-direction: column;
+    max-height:5vmin ;
+    margin-top: 3%;
+    justify-content: space-between;
+    font-size: 3.5vmin;
+    text-align: center;
+
+  }
+  .buttons{
+    display: flex;
+  }
+  button{
+margin: left 5vmin; 
+margin-right:5vmin ;
+width: 10vmin;
+height:10vmin;
+font-size: 5vmin;
+border-radius: 2vmin;
+  }
+
+img{
+    max-width: 50%;
+    max-height: 40vmin;
+}
+#toucan{
+    border-radius: 3vmin;
+    background-color: greenyellow;
+    margin-top: 10vmin;
+    margin-right: 5vw;
+    margin-left: 5vw;
+     border: 3px groove red ;
+}
